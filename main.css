@@ -1,0 +1,227 @@
+*{
+    margin:0;
+    padding: 0;
+}
+body{
+    background-color:white;
+}
+.img{
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    opacity: 0.6;
+}
+ .titulo{
+    background-color:darkslategrey;
+    padding-bottom: 8px;
+     text-transform: uppercase;
+    font-size: 60px;
+    letter-spacing: 10px;
+    color:white;
+    text-align: center;
+    margin-left: 1px;
+    
+}
+.subtitulo{
+    font-size: 30px;
+    text-align: center;
+    color:black;
+    margin-left: 1px;
+}
+.lado_esquerdo{
+    position: absolute;
+    top:20px;
+    display: inline;
+    font-size: 30px;
+}
+#sublista{
+    list-style: none;
+    margin-top: -0.60%;
+    font-size: 20px;
+    position: absolute;
+    padding: 1px 20px;
+    text-align: left;
+    margin-left: 7.1%;
+    top: 11.6%;
+    color: white;
+    background-color:darkslategrey;
+    border-bottom-left-radius: 60px;
+    border-top-right-radius: 100px;
+    border-bottom-right-radius:100px ;
+    display: none;
+    /*opacity: 0;*/
+}
+li{
+    text-decoration: solid white;
+    margin-bottom: 10px;
+    color:white;
+}
+a{
+    text-decoration: none;
+}
+#botao1{
+    color: white;
+    position: absolute;
+    top:20px;
+    border-width: 4px;
+    border-right: 4px;
+    border-style:solid;
+    border-color: transparent;
+    text-align: center;
+    font-size: 20px;
+    background-color: darkslategrey;
+    padding: 4px 4px;
+    border-radius: 5px;
+    margin-top: 1px;
+    margin-left: 40px;
+    text-decoration: none;
+}
+#botaohome2{
+    color: white;
+    position: absolute;
+    top:20px;
+    border-width: 6px;
+    border-right: 6px;
+    border-style:solid;
+    border-color: transparent;
+
+    text-align: center;
+    font-size: 20px;
+    background-color: darkslategrey;
+    padding: 4px 4px;
+    border-radius: 5px;
+    margin-top: 1px;
+    margin-left: 14%;
+    text-decoration: none;
+}
+#register{
+    position: absolute;
+    top:20px;
+    left: 88%;
+    font-size: 20px;
+    padding: 4px 4px;
+    background-color:darkslategrey;
+    color: white;
+    border-style: none;
+    border-radius: 6px;
+    text-decoration:none;
+}
+#login{
+        position: absolute;
+        top:20px;
+        left: 82%;
+        font-size: 20px;
+        padding: 4px 4px;
+        background-color: darkslategrey;
+        color: white;
+        border-style: none;
+        border-radius: 6px;
+        text-decoration: none;
+
+
+}
+.contener{
+    color:white;
+}
+.nomesite{
+    text-align: center;
+    padding: 0px !important;
+    margin-top: 0%;
+    color:black;
+}
+.contener{
+    margin-top: 30px;
+    background-color: white;
+    margin-left: 5%;
+    margin-right: 5%;
+    width: 1150px;
+    height: 425px;
+    border: solid;
+    border-color: black;
+    border-style:solid;
+    border-radius: 24px;
+    box-shadow: 13px 13px 20px black;
+}
+img{
+    border:0;
+    padding-left: 0px;
+    border-radius: 20px;
+}
+#slider{
+    list-style: none;
+    width: 1160px;
+    height: 450px;
+    margin-top:0% ;
+    padding: 0;
+    overflow: hidden;
+    position:relative;
+}
+#slider li{
+    position: absolute;
+    z-index: 0;
+    display:none;
+}
+#slider li.slideractive{
+    z-index:1;
+}
+
+/*.slider {
+    padding-left:1%;
+    text-align: center;
+    display: block;
+    height: 425px;
+    width: 1150%;
+    margin: auto;
+    margin-top: 12px;
+    
+    position: relative;
+}
+
+.slider li {
+    list-style: none;
+    position: absolute;
+}
+
+.slider img {
+    margin: auto;
+    height: 100%;
+    width: 100%;
+    vertical-align: top;
+    border-radius: 20px;
+}
+.slider input{
+    display: none;
+}
+.slider label {
+    background-color: #000;
+    bottom: 10px;
+    cursor: pointer;
+    display: block;
+    height: 10px;
+    position: absolute;
+    width: 10px;
+    z-index: 10;
+}
+
+.slider li:nth-child(1) label {
+    left: 10px;
+}
+
+.slider li:nth-child(2) label {
+    left: 40px;
+}
+
+.slider li:nth-child(3) label {
+    left: 70px;
+}
+.slider img {
+    opacity: 0;
+    visibility: hidden;
+}
+
+.slider li input:checked ~ img {
+    opacity: 1;
+    visibility: visible;
+    z-index: 10;
+}
+*/

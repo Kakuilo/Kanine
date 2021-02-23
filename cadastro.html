@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head lang="pt-br">
+ <meta charset="utf-8">
+ <meta name =" kanine "content="site do kanine">
+ <link rel="stylesheet" href="cadastro.css">
+ <title> Kanine </title>
+</head>
+<body>
+    <header class="cabecalho">
+    <h1>kanine</h1>
+    <h2> Cadastra-se </h2> 
+    <p class="mensagem">veja entre na melhor plataforma de adoção de Animais</p> <br/> 
+    <p class="borda"></p>
+    </header>
+    <div class="cadastro">
+        <form method="POST" action="/Register">
+        <p>Nome</p>
+        <input class="nome" type="text" name="Nome" > <br/>
+        <p>Sobrenome</p> 
+        <input class="nome" type="text" name="Sobrenome" > <br/>
+        <p>Gênero</p>
+        <input class="click" type="radio" name="genero" value="default"> Masculino 
+        <input class="click2" type="radio" name="genero" value="default"> Feminino 
+        <p>Data de Nascimento</p>
+        <input class="data" type="date" nome="data de Nascimento" value="default">
+        <p>Usuário</p>
+        <input class="nome" type="text" name="usuario">
+        <p>Senha</p>
+        <input id="senha" type="password" name="Senha" maxlength="16" minlength=" 8">
+        <button class="botao" type="button" onclick="mostrarsenha()" >Mostrar</button>
+    
+        <p>E-mail</p>
+        <input class="nome" type="email" name="email" >
+        <p>Confirme Seu E-mail</p>
+        <input class="nome" type="email" name="email">
+        <p>Localização</p>
+        <input class="cep1" type="text"  maxlength ="5" pattern="[1-9]">-<input class="cep2" type="text" maxlength="3" pattern="[1-9]"> <br/>
+        <a href="login.html"><input class="confirmar" type="submit" type="button"  name=" Final"  value="Confirmar Cadastro"></a>
+    </form>
+    </div>
+    <script>
+        function mostrarsenha(){
+        var tipo= document.getElementById("senha");
+        if(tipo.type=="password"){
+            tipo.type="text";
+        }else if(tipo.type=="text"){
+            tipo.type=("password");
+        }
+        }
+    </script>
+</body>
+</html>
