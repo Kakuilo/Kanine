@@ -1,0 +1,121 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+body{
+    font-family: Arial;
+    font-size: 18px;
+    width: 100%;
+    margin:0 auto;
+
+}
+
+.cabecalho h1{
+    text-align: center;
+    text-transform: uppercase;
+    color: black;
+    font-size: 60px;
+    margin-top: 0px;
+    background-color: darkslategray;
+    
+}
+
+header h2{
+    text-align: center;
+    font-size: 2.5em;
+    margin-bottom:0px;
+}
+.mensagem{
+    text-align: center;
+    margin-top: 1px;
+    font-size: 1.5em;
+
+}
+.borda{
+    margin-top: -10px;
+    padding-top: -5px;
+    border-bottom: solid;
+    border-color: black;
+    border-bottom-width: 2px;
+    margin-left:25%;
+    margin-right: 25%;
+}
+.cadastro p{
+    padding-bottom: 6px;
+    padding-top: 7px;
+    font-weight: bolder;
+    margin-top: 5px;
+
+}
+.cadastro{
+    padding-top:18px ;
+    padding-left: 36%;
+    padding-bottom: 30px;
+    font-size: 20px;
+    
+}
+.nome, #senha{
+    font-size: 20px;
+    width: 400px;
+    height: 40px;
+    border-radius:6px;
+    border-color: darkslategray;
+    border-style: solid;    
+}
+.click2{
+    Margin-left: 100px;
+    
+}
+.click{
+    margin-left: 45px;
+}
+.data{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    text-align:center;
+    letter-spacing:3px;
+    width:250px;
+    height: 40px;
+    padding-left: 20px;
+    margin-left: auto;
+}
+.cep1{
+    width: 150px;
+    height: 40px;
+    border-radius:6px;
+    border-color: darkslategray;
+    border-style: solid;  
+    font-size: 18px;  
+}
+.cep2{
+    width: 100px;
+    height: 40px;
+    border-radius:6px;
+    border-color: darkslategray;
+    border-style: solid;
+    font-size: 18px;    
+}
+.confirmar{
+    font-size: 20px;
+    text-align: center;
+    margin-left: 90px;
+    margin-top: 35px;
+    width: 250px;
+    height: 50px;
+    border-radius: 8px;
+    background-color: darkslategray;
+    color: white;
+}
+.botao{
+    margin-top: 10px;
+    font-size: 18px;
+    color: white;
+    width: 80px;
+    height: 30px;
+    background-color: royalblue;
+    border-color: royalblue;
+
+}
